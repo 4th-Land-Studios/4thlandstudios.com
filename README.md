@@ -1,6 +1,11 @@
 # 4thlandstudiosCom
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.22.
+Website for video game development company.
+
+Unfortunetly i am not very compotent with web technologies it is probably not good.
+
+
+Rest of this README was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.22.
 
 ## Development server
 
