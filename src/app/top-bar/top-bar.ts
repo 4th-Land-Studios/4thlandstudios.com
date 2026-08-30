@@ -6,4 +6,11 @@ import { Component } from "@angular/core";
   styleUrl: "./top-bar.css"
 })
 
-export class TopBar {}
+export class TopBar {
+
+  news() {}
+  about() { window.location.href = "/about"; }
+  socials() { window.location.href = "/socials"; }
+  projects() {}
+
+}
