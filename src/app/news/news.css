@@ -1,0 +1,14 @@
+#news-box{
+  font-family: CosmicSuperHumanRegular-Regular;
+  background-color: #ff007f;
+  border-radius: 5px;
+}
+#news-title{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d10068;
+  font-size: 48px;
+  color: white;
+}
