@@ -8,9 +8,9 @@ import { Component } from "@angular/core";
 
 export class TopBar {
 
-  news() {}
-  about() { window.location.href = "/about"; }
-  socials() { window.location.href = "/socials"; }
-  projects() {}
+  news() {window.location.hash = "news"; }
+  about() { window.location.hash = "about"; }
+  socials() {window.location.hash = "socials"; }
+  projects() {window.location.hash = "projects"; }
 
 }
