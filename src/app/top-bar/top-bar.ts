@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, AfterViewInit, ViewChild, ElementRef } from "@angular/core";
 
 @Component({
   selector: "top-bar",
@@ -6,11 +6,34 @@ import { Component } from "@angular/core";
   styleUrl: "./top-bar.css"
 })
 
-export class TopBar {
+export class TopBar implements AfterViewInit {
 
-  news() {window.location.hash = "news"; }
-  about() { window.location.hash = "about"; }
-  socials() {window.location.hash = "socials"; }
-  projects() {window.location.hash = "projects"; }
+  newsElement!:HTMLElement;
+  aboutElement!:HTMLElement;
+  socialsElement!:HTMLElement;
+  projectsElement!:HTMLElement;
+
+  ngAfterViewInit() {
+    this.newsElement = document.getElementById("news")!;
+    this.aboutElement = document.getElementById("about")!;
+    this.socialsElement = document.getElementById("socials")!;
+    this.projectsElement = document.getElementById("projects")!;
+  }
+
+  news() {
+    this.newsElement.scrollIntoView({ behavior: "smooth" });
+  }
+
+  about() {
+    this.aboutElement.scrollIntoView({ behavior: "smooth" });
+  }
+
+  socials() {
+    this.socialsElement.scrollIntoView({ behavior: "smooth" });
+  }
+
+  projects() {
+    this.projectsElement.scrollIntoView({ behavior: "smooth" });
+  }
 
 }
