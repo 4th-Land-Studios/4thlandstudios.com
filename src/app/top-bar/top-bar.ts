@@ -20,6 +20,10 @@ export class TopBar implements AfterViewInit {
     this.projectsElement = document.getElementById("projects")!;
   }
 
+  sitelink() {
+    window.location.href = "https://4thlandstudios.com";
+  }
+
   news() {
     this.newsElement.scrollIntoView({ behavior: "smooth" });
   }

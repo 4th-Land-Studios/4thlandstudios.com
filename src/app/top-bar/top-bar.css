@@ -1,7 +1,6 @@
 .logo {
   height : 10%;
   width : 10%;
-  margin-right: 10px;
 }
 
 #top-bar{
@@ -34,4 +33,14 @@
 .top-bar-button:hover {
   color: rgba(255, 255, 255, 0.81);
   filter: background-color(0.8);
+}
+
+#top-bar-banner {
+  width: 99.9%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 0%;
 }
