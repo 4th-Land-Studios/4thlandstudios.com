@@ -12,7 +12,7 @@
 #about-title {
   border-radius: 5px 5px 0px 0px;
   padding: 10px;
-  font-size: 48px;
+  font-size: 200%;
   font-family: CosmicSuperHumanRegular-Regular;
   color: white;
   background-color: #d10068;
@@ -23,5 +23,5 @@
   text-align: center;
   font-family: CosmicSuperHumanRegular-Regular;
   color: white;
-  font-size: 32px;
+  font-size: 100%;
 }

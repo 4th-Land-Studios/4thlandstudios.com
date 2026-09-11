@@ -1,12 +1,20 @@
+#all-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .logo {
-  height : 10%;
-  width : 10%;
+  height : 50%;
+  width : 50%;
 }
 
 #top-bar{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #button-bar {
@@ -15,32 +23,52 @@
   align-items: center;
   background-color: #ff007f;
   color: white;
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius: 2%;
+  padding: 2% 10%;
 }
 
 .top-bar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "CosmicSuperHumanRegular-Regular";
-  font-size: 32px;
+  font-size: 100%;
   background-color: #ff007f;
   color: white;
+  border-radius: 2%;
   border: none;
-  padding: 10px 20px;
+  padding: 2% 2%;
   cursor: pointer;
   transition: filter 0.2s ease;
 }
 
 .top-bar-button:hover {
   color: rgba(255, 255, 255, 0.81);
-  filter: background-color(0.8);
+  filter: brightness(0.8);
 }
 
 #top-bar-banner {
-  width: 99.9%;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
-  height: 0%;
+  border-radius: 2%;
+}
+
+@media screen and (min-width: 786px) {
+.top-bar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "CosmicSuperHumanRegular-Regular";
+  font-size: 200%;
+  background-color: #ff007f;
+  color: white;
+  border-radius: 2%;
+  border: none;
+  padding: 2% 2%;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
 }
