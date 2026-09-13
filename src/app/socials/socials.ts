@@ -8,7 +8,7 @@ import { Component } from "@angular/core";
 
 export class Socials {
 
-  facebook()  {window .open("https://www.facebook.com/4thlandstudios", "_blank");}
+  facebook()  {window.open("https://www.facebook.com/4thlandstudios", "_blank");}
   github()    {window.open("https://github.com/4th-Land-Studios", "_blank");}
   instagram() {window.open("https://www.instagram.com/4thLandStudios", "_blank");}
   linkedin()  {window.open("https://www.linkedin.com/company/4thlandstudios", "_blank");}

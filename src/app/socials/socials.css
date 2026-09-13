@@ -6,10 +6,26 @@
 }
 
 .socials-button{
-  transform: scale(0.5);
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   border: none;
   cursor: pointer;
+  transform: scale(0.3);
 }
-
-
+/* for desktop */
+@media screen and (min-width: 786px) {
+  .socials-button{
+    width: 4%;
+    height: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transform: scale(0.3);
+  }
+}
