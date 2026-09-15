@@ -1,0 +1,27 @@
+#post{
+    cursor: url(../../../public/cursors/Xw.cur);
+    color: white;
+    font-family: CosmicSuperHumanRegular-Regular;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 2%;
+    background-color: #ff007f;
+    display: flex;
+    align-items: center;
+}
+
+#post-title{
+    background-color: #d10068;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 2%;
+}
+
+#post-image{
+    height: 25%;
+    width: 25%;
+    background-color: white;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 2%;
+}

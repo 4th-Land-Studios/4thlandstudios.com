@@ -4,10 +4,11 @@ import { Socials } from './socials/socials';
 import { About } from './about/about';
 import { News } from './news/news';
 import { Projects } from './projects/projects';
+import { Post } from './post/post';
 
 @Component({
   selector: 'app-root',
-  imports: [TopBar, Socials, About, News, Projects],
+  imports: [TopBar, Socials, About, News, Projects, Post],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Post } from '../post/post';
 
 @Component({
   selector: 'projects',
@@ -6,4 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './projects.css'
 })
 
-export class Projects {}
+export class Projects {
+
+  post!: Array<Post>;
+
+}
