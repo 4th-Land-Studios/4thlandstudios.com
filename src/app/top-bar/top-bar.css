@@ -6,13 +6,13 @@
 }
 
 .logo {
-  cursor: url("../../../public/Xw.cur"), auto;
+  cursor: url("../../../public/cursors/Xw.cur"), auto;
   height : 50%;
   width : 50%;
 }
 
 #top-bar{
-  cursor: url("../../../public/X.cur"), auto;
+  cursor: url("../../../public/cursors/X.cur"), auto;
   border-radius: 2%;
   background-color: white;
   padding: 2%;
@@ -34,7 +34,7 @@
 }
 
 .top-bar-button {
-  cursor: url("../../../public/X.cur"), auto;
+  cursor: url("../../../public/cursors/X.cur"), auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,13 +50,13 @@
 }
 
 .top-bar-button:hover {
-  cursor: url("../../../public/X.cur"), auto;
+  cursor: url("../../../public/cursors/X.cur"), auto;
   color: rgba(255, 255, 255, 0.81);
   filter: brightness(0.8);
 }
 
 #top-bar-banner {
-  cursor: url("../../../public/Xw.cur"), auto;
+  cursor: url("../../../public/cursors/Xw.cur"), auto;
   border-radius: 0% 0% 2% 2%;
   position: absolute;
   top: 0%;
@@ -86,7 +86,7 @@
 }
 
 #top-bar-banner {
-  cursor: url("../../../public/Xw.cur"), auto;
+  cursor: url("../../../public/cursors/Xw.cur"), auto;
   border-radius: 0% 0% 2% 2%;
   position: absolute;
   top: -17%;
