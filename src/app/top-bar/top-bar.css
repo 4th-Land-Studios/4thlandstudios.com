@@ -1,5 +1,4 @@
 #all-bar{
-  cursor: url("../../../public/X.cur"), auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +12,7 @@
 }
 
 #top-bar{
-  cursor: url("../../../public/Xw.cur"), auto;
+  cursor: url("../../../public/X.cur"), auto;
   border-radius: 2%;
   background-color: white;
   padding: 2%;
