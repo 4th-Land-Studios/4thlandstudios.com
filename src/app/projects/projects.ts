@@ -7,8 +7,7 @@ import { Post } from '../post/post';
   styleUrl: './projects.css'
 })
 
-export class Projects {
+export class Projects  {
 
-  post!: Array<Post>;
 
 }
